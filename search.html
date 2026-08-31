@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axtarış nəticələri — BronEt</title>
+<meta name="description" content="Azərbaycan üzrə A-Frame evləri və dağ evləri. Filtrlə, müqayisə et, kart məlumatı olmadan bron et.">
+<meta name="theme-color" content="#0B2F22">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%2300A63E'/%3E%3Cpath d='M12 4 20 20H4Z' fill='%23fff'/%3E%3C/svg%3E">
+
+</head>
+<body>
+<a class="skip" href="#main">Əsas məzmuna keç</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12.5 5 5L20 6.5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m0 0-6-6m6 6-6 6"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-9.6A4.4 4.4 0 0 1 12 7.6a4.4 4.4 0 0 1 7.5 2.8C19.5 15.4 12 20 12 20Z"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.4-3 7.7-7 9-4-1.3-7-4.6-7-9V6l7-3Z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-wallet" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8Z"/><path d="M16 12h4v4h-4a2 2 0 0 1 0-4Z"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 10h18"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 12a7.5 7.5 0 0 1-11 6.6L4 20l1.4-4.4A7.5 7.5 0 1 1 20 12Z"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="9" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><path d="M16 6.5a3 3 0 0 1 0 5.6M17 19a5.4 5.4 0 0 0-1.6-3.8"/></symbol>
+<symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18v-8m0 4h18v4M3 12V7m18 7V11a2 2 0 0 0-2-2h-6v5"/><circle cx="7.5" cy="10.5" r="1.8"/></symbol>
+<symbol id="i-door" viewBox="0 0 24 24"><path d="M6 21V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17"/><path d="M4 21h16"/><circle cx="14.5" cy="12.5" r=".9"/></symbol>
+<symbol id="i-ruler" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="8" rx="2"/><path d="M7.5 8v3M12 8v4M16.5 8v3"/></symbol>
+<symbol id="i-wifi" viewBox="0 0 24 24"><path d="M4 9a13 13 0 0 1 16 0M7 12.5a8.5 8.5 0 0 1 10 0M10 16a4 4 0 0 1 4 0"/><circle cx="12" cy="19" r=".8" fill="currentColor"/></symbol>
+<symbol id="i-fire" viewBox="0 0 24 24"><path d="M12 3s5 4.2 5 8.6A5 5 0 0 1 7 12c0-1.7.8-3 .8-3S9 11 10.5 11c0-3 1.5-5.4 1.5-8Z"/></symbol>
+<symbol id="i-car" viewBox="0 0 24 24"><path d="M4 16v-3l1.7-4.3A2 2 0 0 1 7.6 7h8.8a2 2 0 0 1 1.9 1.7L20 13v3"/><path d="M4 16h16v2.5H4z"/><circle cx="7.5" cy="16" r="1.4"/><circle cx="16.5" cy="16" r="1.4"/></symbol>
+<symbol id="i-mountain" viewBox="0 0 24 24"><path d="M3 19h18L14 6l-3.4 6.2L8.4 9 3 19Z"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7"/><path d="M6 10v9h12v-9"/></symbol>
+<symbol id="i-pool" viewBox="0 0 24 24"><path d="M3 17c1.6 0 1.6 1.4 3.2 1.4S7.8 17 9.4 17 11 18.4 12.6 18.4 14.2 17 15.8 17s1.6 1.4 3.2 1.4"/><path d="M8 15V6.5a2 2 0 0 1 4 0V15M16 15V6.5"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="m12 4 2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 9.7l5.4-.8L12 4Z"/></symbol>
+<symbol id="i-star-f" viewBox="0 0 24 24"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.5 9.7l5.9-.9L12 3.5Z"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3 5.5 13.5H11l-.8 7.5L18.5 10H13l0-7Z"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M18.4 5.6l-1.6 1.6M7.2 16.8l-1.6 1.6"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5"/><circle cx="12" cy="8.2" r=".9" fill="currentColor"/></symbol>
+<symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="12" r="3.5"/><path d="M11.5 12H20m-3 0v3m-2.5-3v2"/></symbol>
+<symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3.5V6m8-2.5V6"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="16.8" cy="7.2" r=".9" fill="currentColor"/></symbol>
+<symbol id="i-fb" viewBox="0 0 24 24"><path d="M14.5 8.5H17V5h-2.6c-2.2 0-3.4 1.4-3.4 3.5V11H9v3.5h2v6h3.5v-6h2.3l.5-3.5h-2.8V9.4c0-.6.2-.9 1-.9Z"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3.8A8.2 8.2 0 0 0 4.9 16L4 20.2l4.3-.9A8.2 8.2 0 1 0 12 3.8Z"/><path d="M9 9.2c.3-.7.6-.7.9-.7h.6c.2 0 .5 0 .7.6l.7 1.7c.1.3 0 .5-.1.7l-.4.5c-.1.2-.2.3 0 .6.5.9 1.4 1.6 2.3 2 .3.2.5.1.7-.1l.5-.6c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.4.3.7-.2.8-1 1.5-1.9 1.5-2.6 0-6.5-3.4-6.5-6 0-.6.2-1.1.5-1.6Z"/></symbol>
+<symbol id="i-send" viewBox="0 0 24 24"><path d="M4.5 12 20 4.5 15.5 20l-3.4-6.1L4.5 12Z"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10" width="15" height="10.5" rx="2.5"/><path d="M8 10V7.5a4 4 0 0 1 8 0V10"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m3.8 7 8.2 6 8.2-6"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.6"/><path d="M4.8 20a7.2 7.2 0 0 1 14.4 0"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M7 3.5h3l1.5 4-2 1.4a12 12 0 0 0 5.6 5.6l1.4-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 5.5 5.7 2 2 0 0 1 7 3.5Z"/></symbol>
+<symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5"/><path d="M4 15v3.5A2.5 2.5 0 0 0 6.5 21h11a2.5 2.5 0 0 0 2.5-2.5V15"/></symbol>
+<symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.4 2.6 2.6L16 9.6"/></symbol>
+<symbol id="i-bot" viewBox="0 0 24 24"><rect x="4" y="7.5" width="16" height="12" rx="4"/><path d="M12 7.5V4M9.5 13.5v1.5M14.5 13.5v1.5"/><circle cx="12" cy="3.4" r="1.2"/></symbol>
+</defs></svg><header class="hdr" data-static="true">
+  <div class="hdr__in">
+    <a class="logo" href="index.html" aria-label="BronEt — ana səhifə">
+  <span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 20 20H4L12 3Z"/><path d="M12 11 15.6 20H8.4L12 11Z" fill="#fff" stroke="none" opacity=".55"/></svg></span>
+  BronEt</a>
+    <nav class="nav" aria-label="Əsas naviqasiya">
+      <a href="search.html" aria-current="page">Kəşf et</a>
+      <a href="index.html#nasil">Necə işləyir</a>
+      <a href="host.html">Əmlakınızı yerləşdirin</a>
+      <a href="index.html#faq">Kömək</a>
+    </nav>
+    <div class="hdr__right">
+      <button class="langsel desk" type="button" aria-label="Dil seçimi">🇦🇿 AZ ▾</button>
+      <a class="btn btn--ghost btn--sm desk" href="login.html">Daxil ol</a>
+      <a class="btn btn--sm desk" href="register.html">Qeydiyyat</a>
+      <button class="burger" type="button" aria-label="Menyu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobmenu" data-open="false">
+  <div class="wrap">
+    <a href="search.html">Kəşf et</a>
+    <a href="index.html#nasil">Necə işləyir</a>
+    <a href="host.html">Əmlakınızı yerləşdirin</a>
+    <a href="index.html#faq">Tez-tez verilən suallar</a>
+    <div style="display:flex;gap:12px;margin-top:16px">
+      <a class="btn btn--ghost btn--block" href="login.html">Daxil ol</a>
+      <a class="btn btn--block" href="register.html">Qeydiyyat</a>
+    </div>
+  </div>
+</div>
+<div class="subbar">
+  <div class="wrap subbar__in">
+    <form class="minisearch" action="search.html">
+      <svg aria-hidden="true"><use href="#i-search"/></svg>
+      <span>Azərbaycan</span><i></i>
+      <em>17—20 Sen</em><i></i>
+      <em>2 böyük · 1 otaq</em>
+      <button class="btn btn--sm" type="submit">Yenilə</button>
+    </form>
+    <button class="btn btn--ghost btn--sm filter-toggle" type="button" data-filter-toggle aria-expanded="false">Filtrlər (2)</button>
+    <span class="muted" style="font-size:13px;margin-inline-start:auto">109 əmlakdan 8-i göstərilir</span>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap">
+  <div class="results">
+    <aside class="filters" aria-label="Filtrlər">
+  <div class="fgroup">
+    <h4>Gecəlik qiymət</h4>
+    <div class="range"><span class="muted" style="font-size:13px">₼40</span><input type="range" min="40" max="400" value="260" aria-label="Maksimum qiymət"><span style="font-size:13px;font-weight:700">₼260</span></div>
+  </div>
+  <div class="fgroup"><h4>Əmlak növü</h4><label class="check"><input type="checkbox" checked><span>A-Frame ev</span><span>38</span></label><label class="check"><input type="checkbox"><span>Bütöv ev / villa</span><span>27</span></label><label class="check"><input type="checkbox"><span>Mənzil</span><span>19</span></label><label class="check"><input type="checkbox"><span>Otel otağı</span><span>14</span></label><label class="check"><input type="checkbox"><span>Butik qonaq evi</span><span>11</span></label></div>
+  <div class="fgroup"><h4>Şərtlər</h4><label class="check"><input type="checkbox" checked><span>Pulsuz ləğvetmə</span><span>64</span></label><label class="check"><input type="checkbox"><span>Öncədən ödəniş yoxdur</span><span>71</span></label><label class="check"><input type="checkbox"><span>Səhər yeməyi daxil</span><span>33</span></label><label class="check"><input type="checkbox"><span>Pulsuz transfer</span><span>12</span></label><label class="check"><input type="checkbox"><span>Ev heyvanı olar</span><span>8</span></label></div>
+  <div class="fgroup"><h4>İmkanlar</h4><label class="check"><input type="checkbox"><span>Kamin</span><span>29</span></label><label class="check"><input type="checkbox"><span>Hovuz</span><span>16</span></label><label class="check"><input type="checkbox"><span>Mangal sahəsi</span><span>44</span></label><label class="check"><input type="checkbox"><span>Wi-Fi</span><span>96</span></label><label class="check"><input type="checkbox"><span>Parking</span><span>81</span></label></div>
+  <div class="fgroup"><h4>Qonaq reytinqi</h4>
+    <div class="chips" data-chips style="flex-wrap:wrap">
+      <button class="chip" type="button" aria-pressed="true">Hamısı</button>
+      <button class="chip" type="button" aria-pressed="false">4,0+</button>
+      <button class="chip" type="button" aria-pressed="false">4,5+</button>
+    </div>
+  </div>
+  <button class="btn btn--ghost btn--block" type="button">Filtrləri sıfırla</button>
+</aside>
+    <div>
+      <div class="results__head">
+        <div>
+          <h1 style="font-size:var(--step-3)">Azərbaycan üzrə əmlaklar</h1>
+          <p class="muted" style="font-size:var(--step--1)">Qiymətlər gecəlik göstərilib. Vergi və xidmət haqqı rezervasiya panelində ayrıca hesablanır.</p>
+        </div>
+        <label class="sort">Sırala:
+          <select aria-label="Sıralama">
+            <option>Tövsiyyə olunan</option>
+            <option>Əvvəlcə ucuz</option>
+            <option>Əvvəlcə baha</option>
+            <option>Ən yüksək reytinq</option>
+            <option>Yeni elanlar</option>
+          </select>
+        </label>
+      </div>
+      <div class="mapcard" data-reveal>
+  <svg viewBox="0 0 400 400" role="img" aria-label="Nəticələrin xəritədə yerləşməsi">
+    <rect width="400" height="400" fill="#EEF2E9"/>
+    <path d="M0 250 Q90 210 170 246 T400 220 L400 400 L0 400Z" fill="#DCE7D6"/>
+    <path d="M0 300 Q120 268 210 300 T400 286 L400 400 L0 400Z" fill="#CFDFCA"/>
+    <path d="M-10 120 Q120 90 200 130 T410 108" stroke="#BFD3E6" stroke-width="14" fill="none"/>
+    <path d="M40 0 L60 400M150 0 L180 400M280 -10 L250 400M0 90 L400 60M0 200 L400 175M0 330 L400 350" stroke="#fff" stroke-width="3" opacity=".8"/>
+    <g font-family="Manrope, sans-serif" font-size="13" font-weight="800">
+      <g><rect x="60" y="120" width="66" height="30" rx="15" fill="#0B2F22"/><text x="93" y="140" fill="#fff" text-anchor="middle">₼128</text></g>
+      <g><rect x="196" y="86" width="60" height="30" rx="15" fill="#00A63E"/><text x="226" y="106" fill="#fff" text-anchor="middle">$20</text></g>
+      <g><rect x="132" y="222" width="66" height="30" rx="15" fill="#0B2F22"/><text x="165" y="242" fill="#fff" text-anchor="middle">₼185</text></g>
+      <g><rect x="268" y="188" width="66" height="30" rx="15" fill="#0B2F22"/><text x="301" y="208" fill="#fff" text-anchor="middle">₼240</text></g>
+      <g><rect x="86" y="306" width="66" height="30" rx="15" fill="#0B2F22"/><text x="119" y="326" fill="#fff" text-anchor="middle">₼135</text></g>
+      <g><rect x="248" y="322" width="66" height="30" rx="15" fill="#0B2F22"/><text x="281" y="342" fill="#fff" text-anchor="middle">₼165</text></g>
+    </g>
+  </svg>
+  <div class="mapcard__cta"><button class="btn btn--light btn--block btn--sm" type="button">Xəritədə axtar</button></div>
+</div>
+      <div class="list"><article class="rowcard" data-reveal>
+      <div class="rowcard__media"><img src="https://bronet.co.az/_next/image?url=https%3A%2F%2Fsystem.bronet.co.az%2Fstorage%2F7%2F_Z7A9257.jpg&w=1080&q=75" alt="Kichik qala, Bakı — Standart otaq" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/scene-meadow.svg'">
+        <span class="tag tag--deal card__badge">−15%</span>
+        <button class="iconbtn card__fav" type="button" data-fav aria-pressed="false" aria-label="Bəyəndiklərimə əlavə et"><svg aria-hidden="true"><use href="#i-heart"/></svg></button>
+      </div>
+      <div class="rowcard__body">
+        <div class="rowcard__main">
+          <div class="card__row"><h3 class="card__title">Hotel</h3></div>
+          <p class="card__loc">Kichik qala, Bakı</p>
+          <p class="card__meta">Standart 1 · 4 otaq · 8 qonaq</p>
+          <div class="rowcard__perks"><span><svg aria-hidden="true"><use href="#i-check"/></svg>Səhər və şam yeməyi daxil</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Pulsuz ləğvetmə</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Ödəniş əmlakda</span></div>
+        </div>
+        <div class="rowcard__side">
+          <span class="score score--new">Yeni</span>
+          <div style="display:grid;gap:10px;justify-items:end">
+            <p class="card__price"><s>₼150</s><b>₼128</b><i>/ gecə</i></p>
+            <a class="btn btn--sm" href="property.html">Bax</a>
+          </div>
+        </div>
+      </div>
+    </article><article class="rowcard" data-reveal>
+      <div class="rowcard__media"><img src="https://bronet.co.az/_next/image?url=https%3A%2F%2Fsystem.bronet.co.az%2Fstorage%2F5%2F1-otaqdan-2-y-duzlmumumi-sahsi-50kvm-mnzil-bayilin-id-68774427-861304322.jpeg&w=1080&q=75" alt="Mərdəkan — Delüks otaq" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/img/scene-lake.svg'">
+        <span class="tag tag--glass card__badge">Yalnız ailə</span>
+        <button class="iconbtn card__fav" type="button" data-fav aria-pressed="false" aria-label="Bəyəndiklərimə əlavə et"><svg aria-hidden="true"><use href="#i-heart"/></svg></button>
+      </div>
+      <div class="rowcard__body">
+        <div class="rowcard__main">
+          <div class="card__row"><h3 class="card__title">Merdekan</h3></div>
+          <p class="card__loc">Mərdəkan, Bakı</p>
+          <p class="card__meta">Delüks 1 · 4 qonaq</p>
+          <div class="rowcard__perks"><span><svg aria-hidden="true"><use href="#i-check"/></svg>Pulsuz transfer</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Pulsuz ləğvetmə</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Ödəniş əmlakda</span></div>
+        </div>
+        <div class="rowcard__side">
+          <span class="score"><svg aria-hidden="true"><use href="#i-star-f"/></svg>5,0 <em>(1)</em></span>
+          <div style="display:grid;gap:10px;justify-items:end">
+            <p class="card__price"><b>$20</b><i>/ gecə</i></p>
+            <a class="btn btn--sm" href="property.html">Bax</a>
+          </div>
+        </div>
+      </div>
+    </article><article class="rowcard" data-reveal>
+      <div class="rowcard__media"><img src="assets/img/scene-forest.svg" alt="Qəbələ — şam meşəsində A-Frame ev" loading="lazy" decoding="async">
+        <span class="tag tag--deal card__badge">−10%</span>
+        <button class="iconbtn card__fav" type="button" data-fav aria-pressed="false" aria-label="Bəyəndiklərimə əlavə et"><svg aria-hidden="true"><use href="#i-heart"/></svg></button>
+      </div>
+      <div class="rowcard__body">
+        <div class="rowcard__main">
+          <div class="card__row"><h3 class="card__title">Şam meşəsi evi</h3></div>
+          <p class="card__loc">Vəndam, Qəbələ</p>
+          <p class="card__meta">Bütöv ev · 2 yataq · 6 qonaq</p>
+          <div class="rowcard__perks"><span><svg aria-hidden="true"><use href="#i-check"/></svg>Kamin və terras</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Pulsuz ləğvetmə</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Ödəniş əmlakda</span></div>
+        </div>
+        <div class="rowcard__side">
+          <span class="score"><svg aria-hidden="true"><use href="#i-star-f"/></svg>4,8 <em>(24)</em></span>
+          <div style="display:grid;gap:10px;justify-items:end">
+            <p class="card__price"><s>₼205</s><b>₼185</b><i>/ gecə</i></p>
+            <a class="btn btn--sm" href="property.html">Bax</a>
+          </div>
+        </div>
+      </div>
+    </article><article class="rowcard" data-reveal>
+      <div class="rowcard__media"><img src="assets/img/scene-snow.svg" alt="Qusar — Şahdağ yaxınlığında A-Frame ev" loading="lazy" decoding="async">
+        <span class="tag tag--glass card__badge">Şahdağa 8 km</span>
+        <button class="iconbtn card__fav" type="button" data-fav aria-pressed="false" aria-label="Bəyəndiklərimə əlavə et"><svg aria-hidden="true"><use href="#i-heart"/></svg></button>
+      </div>
+      <div class="rowcard__body">
+        <div class="rowcard__main">
+          <div class="card__row"><h3 class="card__title">Şahdağ A-Frame</h3></div>
+          <p class="card__loc">Laza, Qusar</p>
+          <p class="card__meta">Bütöv ev · 3 yataq · 8 qonaq</p>
+          <div class="rowcard__perks"><span><svg aria-hidden="true"><use href="#i-check"/></svg>Panoram dağ mənzərəsi</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Xizək saxlanc otağı</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Pulsuz ləğvetmə</span></div>
+        </div>
+        <div class="rowcard__side">
+          <span class="score"><svg aria-hidden="true"><use href="#i-star-f"/></svg>4,9 <em>(41)</em></span>
+          <div style="display:grid;gap:10px;justify-items:end">
+            <p class="card__price"><b>₼240</b><i>/ gecə</i></p>
+            <a class="btn btn--sm" href="property.html">Bax</a>
+          </div>
+        </div>
+      </div>
+    </article><article class="rowcard" data-reveal>
+      <div class="rowcard__media"><img src="assets/img/scene-meadow.svg" alt="Şamaxı — üzümlük içində ev" loading="lazy" decoding="async">
+        <span class="tag tag--glass card__badge">Bağ evi</span>
+        <button class="iconbtn card__fav" type="button" data-fav aria-pressed="false" aria-label="Bəyəndiklərimə əlavə et"><svg aria-hidden="true"><use href="#i-heart"/></svg></button>
+      </div>
+      <div class="rowcard__body">
+        <div class="rowcard__main">
+          <div class="card__row"><h3 class="card__title">Üzümlük evi</h3></div>
+          <p class="card__loc">Meysəri, Şamaxı</p>
+          <p class="card__meta">Bütöv ev · 2 yataq · 5 qonaq</p>
+          <div class="rowcard__perks"><span><svg aria-hidden="true"><use href="#i-check"/></svg>Şərab dequstasiyası</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Mangal sahəsi</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Pulsuz ləğvetmə</span></div>
+        </div>
+        <div class="rowcard__side">
+          <span class="score"><svg aria-hidden="true"><use href="#i-star-f"/></svg>4,7 <em>(18)</em></span>
+          <div style="display:grid;gap:10px;justify-items:end">
+            <p class="card__price"><b>₼135</b><i>/ gecə</i></p>
+            <a class="btn btn--sm" href="property.html">Bax</a>
+          </div>
+        </div>
+      </div>
+    </article><article class="rowcard" data-reveal>
+      <div class="rowcard__media"><img src="assets/img/scene-lake.svg" alt="Quba — çay kənarında ev" loading="lazy" decoding="async">
+        <span class="tag tag--deal card__badge">−12%</span>
+        <button class="iconbtn card__fav" type="button" data-fav aria-pressed="false" aria-label="Bəyəndiklərimə əlavə et"><svg aria-hidden="true"><use href="#i-heart"/></svg></button>
+      </div>
+      <div class="rowcard__body">
+        <div class="rowcard__main">
+          <div class="card__row"><h3 class="card__title">Çay kənarı ev</h3></div>
+          <p class="card__loc">Xınalıq yolu, Quba</p>
+          <p class="card__meta">Bütöv ev · 3 yataq · 7 qonaq</p>
+          <div class="rowcard__perks"><span><svg aria-hidden="true"><use href="#i-check"/></svg>Açıq hovuz</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Pulsuz transfer</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Ödəniş əmlakda</span></div>
+        </div>
+        <div class="rowcard__side">
+          <span class="score"><svg aria-hidden="true"><use href="#i-star-f"/></svg>4,6 <em>(12)</em></span>
+          <div style="display:grid;gap:10px;justify-items:end">
+            <p class="card__price"><s>₼188</s><b>₼165</b><i>/ gecə</i></p>
+            <a class="btn btn--sm" href="property.html">Bax</a>
+          </div>
+        </div>
+      </div>
+    </article><article class="rowcard" data-reveal>
+      <div class="rowcard__media"><img src="assets/img/scene-dawn.svg" alt="İsmayıllı — Lahıc yolunda dağ evi" loading="lazy" decoding="async">
+        <span class="tag tag--glass card__badge">Dağ evi</span>
+        <button class="iconbtn card__fav" type="button" data-fav aria-pressed="false" aria-label="Bəyəndiklərimə əlavə et"><svg aria-hidden="true"><use href="#i-heart"/></svg></button>
+      </div>
+      <div class="rowcard__body">
+        <div class="rowcard__main">
+          <div class="card__row"><h3 class="card__title">Lahıc dağ evi</h3></div>
+          <p class="card__loc">Lahıc, İsmayıllı</p>
+          <p class="card__meta">Bütöv ev · 1 yataq · 3 qonaq</p>
+          <div class="rowcard__perks"><span><svg aria-hidden="true"><use href="#i-check"/></svg>Səhər yeməyi daxil</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Sakit məhəllə</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Pulsuz ləğvetmə</span></div>
+        </div>
+        <div class="rowcard__side">
+          <span class="score"><svg aria-hidden="true"><use href="#i-star-f"/></svg>4,5 <em>(9)</em></span>
+          <div style="display:grid;gap:10px;justify-items:end">
+            <p class="card__price"><b>₼120</b><i>/ gecə</i></p>
+            <a class="btn btn--sm" href="property.html">Bax</a>
+          </div>
+        </div>
+      </div>
+    </article><article class="rowcard" data-reveal>
+      <div class="rowcard__media"><img src="assets/img/scene-night.svg" alt="Lənkəran — meşə kabinası" loading="lazy" decoding="async">
+        <span class="tag tag--deal card__badge">−20%</span>
+        <button class="iconbtn card__fav" type="button" data-fav aria-pressed="false" aria-label="Bəyəndiklərimə əlavə et"><svg aria-hidden="true"><use href="#i-heart"/></svg></button>
+      </div>
+      <div class="rowcard__body">
+        <div class="rowcard__main">
+          <div class="card__row"><h3 class="card__title">Hirkan kabinası</h3></div>
+          <p class="card__loc">Hirkan, Lənkəran</p>
+          <p class="card__meta">Bütöv ev · 1 yataq · 4 qonaq</p>
+          <div class="rowcard__perks"><span><svg aria-hidden="true"><use href="#i-check"/></svg>Meşə cığırları</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Mangal sahəsi</span><span><svg aria-hidden="true"><use href="#i-check"/></svg>Ödəniş əmlakda</span></div>
+        </div>
+        <div class="rowcard__side">
+          <span class="score"><svg aria-hidden="true"><use href="#i-star-f"/></svg>4,4 <em>(7)</em></span>
+          <div style="display:grid;gap:10px;justify-items:end">
+            <p class="card__price"><s>₼138</s><b>₼110</b><i>/ gecə</i></p>
+            <a class="btn btn--sm" href="property.html">Bax</a>
+          </div>
+        </div>
+      </div>
+    </article></div>
+      <nav class="pager" aria-label="Səhifələr">
+        <a href="#" aria-current="page">1</a><a href="#">2</a><a href="#">3</a><a href="#">Növbəti →</a>
+      </nav>
+    </div>
+  </div>
+</div>
+</main>
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div>
+        <a class="logo" href="index.html" aria-label="BronEt — ana səhifə">
+  <span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 20 20H4L12 3Z"/><path d="M12 11 15.6 20H8.4L12 11Z" fill="#fff" stroke="none" opacity=".55"/></svg></span>
+  BronEt</a>
+        <p class="ftr__about">Unikal dağ təcrübələrinə açılan qapı. Azərbaycanın A-Frame evləri, dağ evləri və butik qonaqlamaları — birbaşa sahibkardan, komissiyasız qiymətlə.</p>
+        <div class="social" style="margin-top:20px">
+          <a href="#" aria-label="Instagram"><svg aria-hidden="true"><use href="#i-ig"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg aria-hidden="true"><use href="#i-fb"/></svg></a>
+          <a href="https://wa.me/994514536143" aria-label="WhatsApp"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Kəşf et</h4><ul>
+        <li><a href="search.html">Bütün əmlaklar</a></li>
+        <li><a href="search.html">A-Frame evləri</a></li>
+        <li><a href="search.html">Qəbələ</a></li>
+        <li><a href="search.html">Qusar &amp; Şahdağ</a></li>
+        <li><a href="search.html">Quba</a></li>
+      </ul></div>
+      <div><h4>Şirkət</h4><ul>
+        <li><a href="#">Haqqımızda</a></li>
+        <li><a href="host.html">Əmlakınızı yerləşdirin</a></li>
+        <li><a href="list-property.html">Yeni elan yarat</a></li>
+        <li><a href="login.html">Daxil ol</a></li>
+        <li><a href="index.html#faq">Tez-tez verilən suallar</a></li>
+        <li><a href="#">Ləğvetmə şərtləri</a></li>
+        <li><a href="#">Məxfilik siyasəti</a></li>
+      </ul></div>
+      <div><h4>Əlaqə</h4><ul>
+        <li><a href="mailto:info@bronet.co.az">info@bronet.co.az</a></li>
+        <li><a href="tel:+994514536143">+994 51 453 61 43</a></li>
+        <li><span>Bakı, Azərbaycan</span></li>
+        <li><span>Hər gün 09:00 — 21:00</span></li>
+      </ul></div>
+    </div>
+    <div class="ftr__bottom">
+      <span>© 2026 BronEt. Bütün hüquqlar qorunur.</span>
+      <span>Ödəniş əmlakda aparılır — kart məlumatı tələb olunmur.</span>
+    </div>
+  </div>
+</footer>
+<div class="chat" data-chat data-open="false">
+  <section class="chat__panel" id="chatPanel" aria-label="BronEt köməkçisi">
+    <header class="chat__head">
+      <span class="chat__ava"><svg aria-hidden="true"><use href="#i-bot"/></svg></span>
+      <div><b>BronEt köməkçisi</b><span>Adətən dərhal cavab verir</span></div>
+      <button class="chat__close" type="button" data-chat-close aria-label="Söhbəti bağla"><svg aria-hidden="true"><use href="#i-x"/></svg></button>
+    </header>
+    <div class="chat__log" data-chat-log role="log" aria-live="polite"></div>
+    <div class="chat__quick" data-chat-quick></div>
+    <form class="chat__form" data-chat-form autocomplete="off">
+      <input type="text" name="m" placeholder="Sualınızı yazın…" aria-label="Mesajınız">
+      <button class="btn" type="submit" aria-label="Göndər"><svg aria-hidden="true"><use href="#i-send"/></svg></button>
+    </form>
+    <a class="chat__wa" href="https://wa.me/994514536143"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5 0-.5.4-3.2-.8-2.7-1.2-4.3-4-4.4-4.2-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2 0 .4-.1.6l-.4.5c-.1.2-.3.3-.1.6.2.4.9 1.5 2 2.4 1.3 1.2 2 1.4 2.3 1.5.2 0 .4 0 .6-.2l.7-.8c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.4.4s0 .8-.1 1.5Z"/></svg> WhatsApp-da davam et</a>
+  </section>
+  <button class="chat__launcher" type="button" data-chat-toggle aria-expanded="false" aria-controls="chatPanel">
+    <svg aria-hidden="true"><use href="#i-chat"/></svg><span>Kömək lazımdır?</span><i></i>
+  </button>
+</div><script src="assets/js/app.js"></script>
+<script src="assets/js/chat.js"></script>
+</body>
+</html>

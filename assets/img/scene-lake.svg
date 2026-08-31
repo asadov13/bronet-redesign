@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="A-Frame ev illüstrasiyası">
+<defs>
+<linearGradient id="skylake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#BFDDE6"/><stop offset="1" stop-color="#EFF7F6"/></linearGradient>
+<linearGradient id="gllake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD98C" stop-opacity=".95"/><stop offset="1" stop-color="#FFD98C" stop-opacity=".55"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#skylake)"/>
+
+<circle cx="612" cy="118" r="46" fill="#FFF6DA" opacity=".9"/>
+<path d="M0 300 L120 208 L214 268 L318 180 L430 292 L520 236 L640 316 L800 244 L800 600 L0 600Z" fill="#93BCC4"/>
+<path d="M0 366 L96 300 L206 358 L300 288 L408 372 L512 316 L628 388 L724 330 L800 372 L800 600 L0 600Z" fill="#6FA0AB" opacity=".95"/>
+<path d="M0 440 L130 386 L268 442 L384 396 L508 452 L640 404 L800 456 L800 600 L0 600Z" fill="#4E7F8C"/>
+<rect y="470" width="800" height="130" fill="#3F6A74"/>
+<g fill="#2F5E58">
+<path d="M96 470 L120 396 L144 470Z"/><path d="M104 446 L120 410 L136 446Z"/>
+<path d="M150 470 L168 418 L186 470Z"/>
+<path d="M640 470 L666 388 L692 470Z"/><path d="M648 444 L666 404 L684 444Z"/>
+<path d="M700 470 L718 420 L736 470Z"/>
+<path d="M42 470 L58 424 L74 470Z"/>
+</g>
+<g>
+<path d="M400 168 L516 474 L284 474Z" fill="#2F3B3C"/>
+<path d="M400 168 L432 168 L548 474 L516 474Z" fill="#1D2627"/>
+<path d="M400 214 L470 400 L330 400Z" fill="#1D2627" opacity=".35"/>
+<path d="M366 474 L400 384 L434 474Z" fill="url(#gllake)"/>
+<path d="M400 286 L436 380 L364 380Z" fill="url(#gllake)" opacity=".9"/>
+<rect x="392" y="474" width="16" height="0" fill="#1D2627"/>
+</g>
+<ellipse cx="400" cy="486" rx="150" ry="16" fill="#000" opacity=".10"/>
+<path d="M0 528 Q200 508 400 526 T800 520 L800 600 L0 600Z" fill="#3F6A74" opacity=".55"/>
+</svg>
